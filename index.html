@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gojaba Sweets & Bakers</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+    <img src="images/logo.png" alt="Gojaba Logo">
+    <h1>Gojaba Sweets & Bakers</h1>
+</header>
+<nav>
+    <a href="#">Sweets</a>
+    <a href="#">Bakery</a>
+    <a href="#">Nimko</a>
+</nav>
+<section class="products">
+    <div class="product-card">
+        <img src="images/sweet.jpg" alt="Sweet">
+        <h3>Gulab Jamun</h3>
+        <p>Price: Rs 500/kg</p>
+        <button class="btn" onclick="addToCart('Gulab Jamun', 500)">Add to Cart</button>
+    </div>
+    <div class="product-card">
+        <img src="images/bakery.jpg" alt="Bakery">
+        <h3>Cake</h3>
+        <p>Price: Rs 1200</p>
+        <button class="btn" onclick="addToCart('Cake', 1200)">Add to Cart</button>
+    </div>
+</section>
+<footer>
+    <p>Contact: 0300-1234567 | Address: Karachi, Pakistan</p>
+    <button class="btn" onclick="checkout()">Order on WhatsApp</button>
+</footer>
+</body>
+</html>
